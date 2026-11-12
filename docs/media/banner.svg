@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050b1f"/>
+      <stop offset="0.6" stop-color="#143347"/>
+      <stop offset="1" stop-color="#1d4a4a"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#eef6dc" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#eef6dc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ff" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffa0" stop-opacity="1"/>
+      <stop offset="1" stop-color="#c8ff50" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="300" fill="url(#sky)"/>
+
+  <circle cx="830" cy="80" r="90" fill="url(#moon)"/>
+  <circle cx="830" cy="80" r="34" fill="#f0f5e0"/>
+
+  <g fill="#0a1f26">
+    <polygon points="0,300 0,200 40,120 80,200 120,150 160,230 200,300"/>
+    <polygon points="150,300 200,170 250,300"/>
+    <polygon points="700,300 750,160 800,300"/>
+    <polygon points="780,300 840,130 900,300"/>
+    <polygon points="880,300 940,170 1000,300"/>
+    <polygon points="930,300 1000,190 1000,300"/>
+  </g>
+  <rect y="270" width="1000" height="30" fill="#06141a"/>
+
+  <g>
+    <circle cx="140" cy="90" r="22" fill="url(#ff)"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="230" r="22" fill="url(#ff)"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="60" r="18" fill="url(#ff)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="225" r="24" fill="url(#ff)"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="70" r="18" fill="url(#ff)"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="90" cy="250" r="16" fill="url(#ff)"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="500" y="145" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="bold" letter-spacing="10" fill="#ffd54f" stroke="#000000" stroke-opacity="0.35" stroke-width="3">FIREFLIES</text>
+  <text x="500" y="195" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#d5f0dc">a forest lantern game</text>
+</svg>

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Fireflies: A Forest Lantern Game"
+type: software
+authors:
+  - given-names: "Manar"
+    family-names: "Toufique Chowdhury"
+  - given-names: "Zebin"
+    family-names: "Fahmina Zannat Khan"
+version: 1.0.0
+date-released: 2026-11-13
+license: MIT
+repository-code: "https://github.com/manartouf/Fireflies-A-Forest-Lantern-Game"
