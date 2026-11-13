@@ -1,5 +1,5 @@
 // ============================================================
-//  FIREFLIES - A Forest Lantern Tale   (version 3)
+//  FIREFLIES - A Forest Lantern Tale by Zebin & Manar  (version 3)
 //  CSE 402 : Computer Graphics & Image Processing Lab
 //  C++ / OpenGL (FreeGLUT) / Code::Blocks
 //
@@ -3222,8 +3222,10 @@ void drawStoryUI()
         char sub[96];
         sprintf(sub, "a forest lantern tale  -  %s", names[difficulty]);
         drawTextCentered(500, 395, sub, GLUT_BITMAP_TIMES_ROMAN_24);
+        glColor4f(1.0f, 0.92f, 0.60f, 0.95f * smooth((st - 1.2f) / 1.5f));
+        drawTextCentered(500, 370, "by Zebin & Manar", GLUT_BITMAP_HELVETICA_18);
         drawVine(280, 720, 575, ta * 0.9f);
-        drawVine(280, 720, 355, ta * 0.9f);
+        drawVine(280, 720, 338, ta * 0.9f);
     }
 
     // caption box with typewriter text
@@ -3364,8 +3366,10 @@ void drawMenuUI()
     float tg = (menuSel == 0) ? 0.92f : (menuSel == 1 ? 0.62f : 1.0f);
     float tb = (menuSel == 0) ? 0.55f : (menuSel == 1 ? 0.50f : 0.60f);
     fancyTitle(500, 585, 0.95f, "FIREFLIES", tr, tg, tb, 1.0f);
+    glColor4f(1.0f, 0.92f, 0.60f, 0.95f);
+    drawTextCentered(500, 562, "by Zebin & Manar", GLUT_BITMAP_HELVETICA_18);
     glColor4f(0.85f, 0.95f, 0.90f, 0.9f);
-    drawTextCentered(500, 548, "choose your path through the forest", GLUT_BITMAP_TIMES_ROMAN_24);
+    drawTextCentered(500, 536, "choose your path through the forest", GLUT_BITMAP_TIMES_ROMAN_24);
     drawVine(250, 750, 520, 0.8f);
 
     const char *labels[3] = { "EASY  -  Lost in the Late Night", "MEDIUM  -  Wandering in Twilight", "HARD  -  The Witch's Mansion" };
@@ -3608,7 +3612,7 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(VW, VH);
     glutInitWindowPosition(100, 30);
-    glutCreateWindow("Fireflies - A Forest Lantern Tale");
+    glutCreateWindow("Fireflies - A Forest Lantern Tale by Zebin & Manar");
 
     glEnable(GL_BLEND);
     normalBlend();
