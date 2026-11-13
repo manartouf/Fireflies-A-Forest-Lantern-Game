@@ -1,5 +1,5 @@
 // ============================================================
-//  FIREFLIES - A Forest Lantern Tale   (version 3)
+//  FIREFLIES - A Forest Lantern Tale by Zebin & Manar  (version 3)
 //  CSE 402 : Computer Graphics & Image Processing Lab
 //  C++ / OpenGL (FreeGLUT) / Code::Blocks
 //
